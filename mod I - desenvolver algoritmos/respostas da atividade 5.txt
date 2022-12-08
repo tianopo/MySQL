@@ -1,0 +1,11 @@
+1 0000000
+2 Procedimento exibeVetor() invocado em ordena() 
+3 informaVetor() 
+4 9 9 9 9 9 9 9 9 9 9 
+5 Em exibeVetor(), usar i como índice do vetor v no parâmetro da função escreva() na linha 66.
+6 Ações II e III 
+7 v[index] 4 11 5 
+8 v[index] é sempre igual a valorControle. É necessário alterar a inicialização da variável inteiro index = controle - 1. 
+questao 9 nao é Motivo: checaAnterior() recebe parâmetros incorretos em ordena(). Correção: alterar a chamada da função para checaAnterior(v, i, aux) no procedimento ordena().
+Motivo: antes de checaAnterior() não se troca a posição do item verificado (valor de controle) em ordena(). Correção incluir v[i+1] = aux antes da chamada a checaAnteriores() em ordena().
+10 Não ocorrem falhas em nenhum dos casos.
